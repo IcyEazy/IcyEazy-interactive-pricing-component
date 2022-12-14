@@ -63,7 +63,6 @@ body{
     border-radius: 0.625rem;
     background-color: white;
     box-shadow: 14px 10px 39px 7px rgba(249, 237, 237, 0.75);
-    padding: 2rem 3rem;
 }
 
 .mon-year{
@@ -114,7 +113,18 @@ body{
     margin-right: 1rem;
 }
 
+.body-content{
+    margin: 2rem 3rem;
+}
+
+hr{
+    background-color: transparent;
+    height: 1px;
+    width: 100%;
+}
+
 .body-content-b{
+    margin: 2rem 3rem;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -296,7 +306,6 @@ input[type=range]:hover{
     opacity: 1;
 }
 
-
 @media screen and (max-width: 560px){
     .desk{
         display: none;
@@ -314,10 +323,12 @@ input[type=range]:hover{
     .pageviews{
         justify-content: center;
     }
-    .body{
-        padding: 2rem 1rem;
+    .body-content{
+        margin: 2rem 1rem;    
     }
+
     .body-content-b{
+        margin: 2rem 1rem;
         flex-direction: column;
     }
     .check{
