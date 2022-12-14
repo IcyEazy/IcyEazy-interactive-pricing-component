@@ -207,6 +207,7 @@ input[type=range] {
   -webkit-appearance: none;
   margin: 10px 0;
   width: 100%;
+  opacity: 0.7;
 }
 input[type=range]:focus {
   outline: none;
@@ -290,6 +291,9 @@ input[type=range]:focus::-ms-fill-lower {
 }
 input[type=range]:focus::-ms-fill-upper {
   background: hsl(174, 77%, 80%);
+}
+input[type=range]:hover{
+    opacity: 1;
 }
 
 
