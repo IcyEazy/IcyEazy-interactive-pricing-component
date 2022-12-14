@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/IcyEazy/IcyEazy-interactive-pricing-component.git)
-- Live Site URL: [Add live site URL here](https://github.com/IcyEazy/IcyEazy-interactive-pricing-component.git)
+- Live Site URL: [Add live site URL here](https://icyeazy.github.io/IcyEazy-interactive-pricing-component/)
 
 ## My process
 
